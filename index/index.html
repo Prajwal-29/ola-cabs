@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="Stylesheet" href="style.css">
+    <title>Book cabs in minutes</title>
+</head>
+<body>
+  <section class="showcase">
+    <header>
+      <h2 class="logo">
+        <image src="ola_logo.png"></image>
+      </h2>
+      <div class="toggle"></div>
+    </header>
+    <video src="ola video 2.mp4"></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Book your source to destination cab</h2> 
+      <h3>Choose from a range of categories and prices</h3>
+      <a href="#">Book Now</a>
+    </div>
+  </section>
+  <div class="menu">
+    <ul>
+      <li><a href="#">Buy/Sell Car</a></li>
+      <li><a href="#">Ola Driver</a></li>
+      <li><a href="#">Ola Select</a></li>
+      <li><a href="#">Ola Feet</a></li>
+      <li><a href="#">Features</a></li>
+    </ul>
+  </div>
+
+  <script>
+  const menuToggle = document.querySelector('.toggle');
+      const showcase = document.querySelector('.showcase');
+
+      menuToggle.addEventListener('click', () => {
+        menuToggle.classList.toggle('active');
+        showcase.classList.toggle('active');
+      })
+
+  </script>
+
+</body>
+</html>
